@@ -1,0 +1,11 @@
+--1st question
+SELECT country FROM country WHERE country LIKE 'A%a';
+
+--2nd question
+SELECT country FROM country WHERE country LIKE5 '______%n';
+
+--3rd question
+SELECT title FROM film WHERE title ILIKE '%T%T%T%T%' ;
+
+--4th question
+SELECT title FROM film WHERE title LIKE 'C%' AND length > 90 AND rental_rate =2.99;
